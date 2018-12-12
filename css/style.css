@@ -1,0 +1,36 @@
+.candidates {
+  font-family: helvetica;
+  font-size: 12px;
+  background: #fff;
+  margin: 45px;
+  width: 480px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table-header {
+  font-family: helvetica;
+  margin-left: 45px;
+}
+
+.candidates th {
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+  background-color: #0B708E;
+  padding: 10px 8px;
+  border-bottom: 2px solid #6678b1;
+}
+
+.candidates tr:nth-child(odd){
+  background-color: #f1ecec;
+}
+
+.candidates td {
+  color: #669;
+  padding: 9px 8px 9px 8px;
+}
+
+.candidates tbody tr:hover td {
+  color: #009;
+}
